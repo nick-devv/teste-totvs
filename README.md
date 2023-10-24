@@ -2,7 +2,7 @@
 
 ## 💻 Sobre o projeto
 
-Esse teste de Front-end foi desenvolvido em aproximadamente 16 horas totais desde instalação, codificação e deploy.
+Esse teste de Front-end foi desenvolvido em aproximadamente 12 horas totais desde instalação, codificação e deploy.
 
 ## 🛠️ Tecnologias
 
@@ -59,6 +59,4 @@ README.md
 
 ### Nome: NICOLAS ISSAHO ALBERTI
 #### E-mail: [![Gmail Badge](https://img.shields.io/badge/-nicolasissaho@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:nicolasissaho@gmail.com)](mailto:nicolasissaho@gmail.com)
-#### Telefone: (tel:(11) 99438-9338)
-
-
+#### Telefone: [(11) 99438-9338](tel:+551199438-9338)
