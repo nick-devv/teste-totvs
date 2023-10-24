@@ -59,4 +59,4 @@ README.md
 
 ### Nome: NICOLAS ISSAHO ALBERTI
 #### E-mail: [![Gmail Badge](https://img.shields.io/badge/-nicolasissaho@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:nicolasissaho@gmail.com)](mailto:nicolasissaho@gmail.com)
-#### Telefone: [(11) 99438-9338](tel:+551199438-9338)
+#### Telefone: (11) 99438-9338

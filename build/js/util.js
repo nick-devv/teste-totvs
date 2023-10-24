@@ -75,6 +75,11 @@ const Main = {
       $('.wrap-mini-kart').removeClass('active');
     },
 
+    openToggle: () => {
+      //função de abrir e fechar o toggle do menu mobile
+      $('header nav').toggleClass('active');
+    },
+
     checkIfEmpty: () => {
       //função que checa se o carrinho contém itens para, caso não, exibir aviso de carrinho vazio
       if ($('.wrap-mini-kart ul').children().length === 0) {

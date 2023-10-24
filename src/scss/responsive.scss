@@ -62,6 +62,14 @@
     }
 
     .banner {
+        .slick-arrow {
+            &.slick-next {
+                right: 25px;
+            }
+            &.slick-prev {
+                left: 25px;
+            }
+        }
         ul {
             li {
                 .text {
@@ -89,8 +97,33 @@
         max-width: 90%;
     }
 
-    nav {
-        display: none;
+    header {
+        .wrap-menu {
+            flex-wrap: wrap;
+            nav {
+                max-height: 0;
+                height: auto;
+                overflow: hidden;
+                transition: $transition;
+                order: 3;
+                width: 100%;
+                &.active {
+                    max-height: 500px;
+                    transition: $transition;
+                }
+                
+                ul {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-start;
+                    align-items: flex-start !important;
+                    padding: 20px 0 0 0;
+                    li {
+                        margin: 15px 0;
+                    }
+                }
+            }
+        }
     }
 
     .wrap-menu {
@@ -105,19 +138,48 @@
             left: 25px;
         }
     }
-    .banner {
-        .slick-arrow {
-            &.slick-next {
-                right: 25px;
-            }
-            &.slick-prev {
-                left: 25px;
-            }
-        }
-    }
 }
 
 @media (max-width: 600px) {
+    .slick-slide img {
+        margin: 0 auto;
+    }
+
+    .wrap-mini-kart {
+        .mini-kart {
+            width: 100%;
+            .header-mini-kart {
+                padding: 16px 30px;
+            }
+            .footer-mini-kart {
+                .btn {
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    .prateleira {
+        ul {
+            .slick-list {
+                .slick-track {
+                    &> li {
+                        .hover-sizes {
+                            img {
+                                transform: scale(0.9);
+                                transform-origin: top center;
+                                transition: $transition;
+                            }
+                            .options {
+                                opacity: 1;
+                                transition: $transition;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 
     .product-info {
         &> .container {

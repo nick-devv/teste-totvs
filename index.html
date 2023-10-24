@@ -25,8 +25,8 @@
     <noscript><link rel="stylesheet" href="vendor/slick-theme.css"></noscript>
 
     <!-- main -->
-    <link rel="preload" href="build/css/styles.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="build/css/styles.min.css"></noscript>
+    <link rel="preload" href="build/css/styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="build/css/styles.css"></noscript>
 
 </head>
 
@@ -145,11 +145,11 @@
                             </p>
                         </div>                      
                     </a>
-                    <div class="toggle">
+                    <a class="toggle" href="javascript:void(0);" onClick="return Main.openToggle();">
                         <span></span>
                         <span></span>
                         <span></span>
-                    </div>
+                    </a>
                 </div>
             </div>    
         </div>
@@ -222,7 +222,7 @@
         </section>
         <section class="slick">
             <div class="container">
-                <ul class="carousel-prateleira" data-slidesToShow="4" data-slidesToScroll="4" data-dots="false" data-slidesToShow-tablet="3" data-slidesToScroll-tablet="3"  data-slidesToShow-mobile="2" data-slidesToScroll-mobile="2" >
+                <ul class="carousel-slick" data-slidesToShow="4" data-slidesToScroll="4" data-dots="false" data-slidesToShow-tablet="2" data-slidesToScroll-tablet="2"  data-slidesToShow-mobile="1" data-slidesToScroll-mobile="1" >
                     <li>
                         <a href="produto.html">
                             <img src="src/images/banner_01.png" alt="">
@@ -283,7 +283,7 @@
 
     <script defer src="vendor/jquery.js"></script>
     <script defer src="vendor/slick.min.js"></script>
-    <script defer src="build/js/util.min.js"></script>
+    <script defer src="build/js/util.js"></script>
 </body>
 </html>
 
