@@ -1,0 +1,127 @@
+.prateleira {
+
+    margin: 48px 0;
+
+    .slick-track {
+        display: flex !important;
+        .slick-slide {
+            height: inherit !important;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+
+    ul {
+        .slick-list {
+            .slick-track {
+                &> li {
+                    position: relative;
+                    text-align: center;
+                    border-radius: 24px;
+                    padding: 8px 20px 16px 20px;
+        
+                    &.unavailable {
+                        .btn[disabled] {
+                            border: 1px solid #F8F7FC;
+                            background: #F8F7FC;
+                            color: #110D2F;
+                            cursor: no-drop;
+                            &:hover {
+                                background: #F8F7FC;
+                            }
+                            &:focus {
+                                background: #F8F7FC;
+                                border-radius: 24px;
+                                color: #110D2F;
+                            }
+                        }
+                    }
+
+                    &:hover {
+                        background: #FFF7FA;
+                        .hover-sizes {
+                            img {
+                                transform: scale(0.9);
+                                transform-origin: top center;
+                                transition: $transition;
+                            }
+                            .options {
+                                opacity: 1;
+                                transition: $transition;
+                            }
+                        }
+                    }
+        
+                    .hover-sizes {
+                        position: relative;
+
+                        img {
+                            transition: $transition;
+                        }
+
+                        & > a {
+                            position: relative;
+                            display: block;
+                        }
+            
+                        .options {
+                            opacity: 0;
+                            transition: $transition;
+                            position: absolute;
+                            bottom: 0;
+                            justify-content: center;
+                        }
+                    }
+        
+                    .flags {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        text-align: center;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        p {
+                            margin: 0 1px;
+                            padding: 4px 8px;
+                            font-size: 10px;
+                            line-height: 14px;
+                            font-weight: 800;
+                            text-transform: uppercase;
+                            background: $blue;
+                            color: $white;
+                            border-radius: 2px;
+                            &.pink {
+                                background: $dark-pink;
+                            }
+                        }
+                    }
+        
+                    h2 {
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 16px;
+                        text-align: center;
+                    }
+        
+                    .btn {
+                        margin-top: 16px;
+                        background: $dark-pink;
+                        color: $white;
+                        &:hover {
+                            background: $darker-pink;
+                        }
+                        &:focus {
+                            background: $darker-pink;
+                            border-radius: 0;
+                            color: $light-pink;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

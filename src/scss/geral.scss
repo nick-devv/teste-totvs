@@ -1,0 +1,212 @@
+// geral 
+
+body {
+    font-family: 'Urbanist', sans-serif;
+    color: $dark;
+    margin: 0;
+    letter-spacing: 1px;
+    overflow-x: hidden;
+    * {
+        outline: none;
+    }
+}
+
+h2 {
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+p {
+    margin-top: 0;
+}
+
+a {
+    color: $light-pink;
+    text-decoration: none;
+    cursor: pointer;
+    &:hover {
+        text-decoration: none;
+        color: $dark-pink;
+    }
+}
+
+.btn.buy {
+    background: $dark-pink;
+    margin-bottom: 24px;
+    color: #fff;
+    &:hover {
+        border: 1px solid $darker-pink;
+        background: $darker-pink;
+    }
+}
+
+.title {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 32px;
+    margin-bottom: 17px;
+    margin-top: 0;
+}
+
+.prices {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    p {
+        margin-bottom: 0;
+        &.old-price {
+            text-decoration: line-through;
+            margin-right: 2px;
+        }
+
+        &.new-price {
+            font-size: 16px;
+            font-weight: bold;
+            line-height: 21px;
+            color: $blue;
+        }
+
+        &.installments {
+            width: 100%;
+            margin-top: 2px;
+            strong {
+                color: $dark-pink;
+                font-weight: 800;
+            }
+        }
+    }
+}
+
+.options {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    &.unique {
+        a {
+            background: $dark-pink;
+            color: #fff;
+        }
+    }
+    li {
+        margin: 0 4px;
+        a {
+            background: #fff;
+            width: 32px;
+            height: 32px;
+            border: 1px solid $light-pink;
+            border-radius: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
+            font-weight: 800;
+            line-height: 16px;
+            text-transform: uppercase;
+            color: $dark-pink;
+            &.active,
+            &:hover {
+                border: 1px solid $dark-pink;
+            }
+        }
+    }   
+}
+
+.container {
+    max-width: 1236px;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+.desk {
+    display: block;
+}
+
+.mobile {
+    display: none;
+}
+
+.slick-arrow {
+    width: 25px;
+    height: 50px;
+    &:before {
+        content: none;
+    }
+    &.slick-prev {
+        left: 0;
+        z-index: 9;
+    }
+    
+    &.slick-next {
+        right: 0;
+        z-index: 9;
+    }
+}
+
+.slick-dots {
+    bottom: 0;
+    position: relative;
+    li {
+        width: auto;
+        height: auto;
+        margin: 0;
+        &.slick-active {
+            button {
+                background: $dark-pink;
+            }
+        }
+        button {
+            padding: 0;
+            background: $grey-2;
+            border-radius: 100%;
+            width: 8px;
+            height: 8px;
+            margin: 0 4px;
+            &:before {
+                content: none;
+            }
+        }
+    }
+}
+
+.btn {
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 16px 71px;
+    display: inline-block;
+    border-radius: 30px;
+    background: transparent;
+    border: 1px solid $dark-pink;
+    color: $dark-pink;
+    cursor: pointer;
+    &:hover {
+        background: $dark-pink;
+        color: $white;
+    }
+}
+
+.mobile-options {
+    display: flex;
+    .toggle {
+        display: none;  
+        margin-left: 20px;
+    }
+}

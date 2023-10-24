@@ -1,0 +1,174 @@
+.decription {
+    background: #FFF7FA;
+    padding: 51px 0 72px 0;
+    p {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    
+    ul {
+        li {
+            p {
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+
+.product-info {
+    margin: 50px 0 20px 0;
+    
+    &> .container {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: space-between;
+        
+        .wrap-img-product {
+            display: flex;
+            width: 50%;
+            &> img {
+                padding-left: 41px;
+                max-width: 100%;
+            }
+        }
+
+        .wrap-info-product {
+            width: 40%;
+            h2 {
+                margin-bottom: 2px;
+            }
+            &> p {
+                font-size: 12px;
+                line-height: 16px;
+            }
+            hr {
+                background: $grey-2;
+                height: 1px;
+                width: 100%;
+                border: none;
+                margin: 20px 0 20px 0;
+            }
+            .prices {
+                justify-content: flex-start;
+                p {
+                    &.old-price {
+                        font-size: 14px;
+                        line-height: 21px;
+                    }
+                    
+                    &.new-price {
+                        font-size: 20px;
+                        line-height: 27px;
+                        margin: 0 16px 0 5px;
+                        color: $dark;
+                    }
+                    
+                    &.installments {
+                        font-size: 12px;
+                        line-height: 16px;
+                        width: auto;
+                    }
+                }   
+            }
+            .size {
+                margin-bottom: 32px;
+                &> p {
+                    font-size: 12px;
+                    line-height: 16px;
+                    strong {
+                        font-weight: 700;
+                        margin-right: 8px;
+                    }
+                }    
+            }            
+            .frete {
+                p {
+                    font-size: 14px;
+                    line-height: 21px;
+                    margin-bottom: 7px;
+                    &.error {
+                        font-size: 12px;
+                        line-height: 16px;
+                        color: red;
+                        position: absolute;
+                        left: 10px;
+                        margin-bottom: 0;
+                        display: none;
+                        &.active {
+                            display: block;
+                        }
+                    }                    
+                }
+                hr {
+                    margin: 0 0 24px 0;
+                }
+                .cep {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                    margin-bottom: 16px;
+                    align-items: center;
+                    position: relative;
+                    input {
+                        width: 120px;
+                        border: 1px solid #E0E0E0;
+                        border-radius: 30px;
+                        padding: 10px 16px;
+                        color: $black;
+                        font-size: 14px;
+                        line-height: 21px;
+                        margin-bottom: 10px;
+                        &:focus {
+                            border: 1px solid red;
+                        }
+                    }
+                    
+                    .btn {
+                        padding: 10px 15px;
+                        font-size: 14px;
+                        line-height: 21px;
+                    }
+
+                    & > div {
+                        width: 75%;
+                    }
+                    
+                    & > a {
+                        width: 25%;
+                        text-align: right;
+                        font-size: 12px;
+                        line-height: 16px;
+                        color: $dark-pink;
+                        &:hover {
+                            text-decoration: underline;
+                        }
+                    }
+                }
+                
+                .results {
+                    display: none;
+                    &.active {
+                        display: block;
+                    }
+                    .result {
+                        border-top: 1px dotted $grey-2;
+                        padding: 6px 16px 8px 16px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        p {
+                            margin-bottom: 0;
+                            &:last-child {
+                                font-size: 12px;
+                                line-height: 16px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
+    
+}

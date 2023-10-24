@@ -1,0 +1,162 @@
+[
+        {
+            "image" : "IMG.png",
+            "available" : true,
+            "name"   : "T-shirt Unissex 2b Yourself Preta Estampa Grafismo",
+            "sku"    : "1",
+            "oldPrice"  : "R$ 152,00",
+            "newPrice"  : "R$ 99,00",
+            "maxInstallments" : "3x",
+            "maxPriceInstallments" : "R$ 33,00",
+            "discount" : "-30%",
+            "flags" : [
+                "novo",
+                "frete grátis"
+            ],
+            "sizes" : [
+                "p",
+                "m",
+                "g",
+                "gg",
+                "xg"
+            ]
+        },
+        {
+            "image" : "IMG2.png",
+            "available" : true,
+            "name"   : "Blusa Moleton com Capuz Azul Escuro Bordado 2bdigital",
+            "sku"    : "2",
+            "oldPrice"  : "",
+            "newPrice"  : "R$ 199,00",
+            "maxInstallments" : "6x",
+            "maxPriceInstallments" : "R$ 33,00",
+            "discount" : "",
+            "flags" : [
+                "frete grátis"
+            ],
+            "sizes" : [
+                "p",
+                "m",
+                "g",
+                "gg",
+                "xg"
+            ]
+        },
+        {
+            "image" : "IMG3.png",
+            "available" : false,
+            "name"   : "Tênis Vans Edição Limitada 2bdigital Rosa/Rosa",
+            "sku"    : "3",
+            "oldPrice"  : "",
+            "newPrice"  : "R$ 549,00",
+            "maxInstallments" : "6x",
+            "maxPriceInstallments" : "R$ 91,50",
+            "discount" : "",
+            "flags" : [
+            ],
+            "sizes" : [
+                "p",
+                "m",
+                "g",
+                "gg",
+                "xg"
+            ]
+        },
+        {
+            "image" : "IMG4.png",
+            "available" : true,
+            "name"   : "EcoBag E-commerce e Business Performance by TOTVS Ibirapuera ",
+            "sku"    : "4",
+            "oldPrice"  : "",
+            "newPrice"  : "R$ 69,00",
+            "maxInstallments" : "2x",
+            "maxPriceInstallments" : "R$ 34,95",
+            "discount" : "",
+            "flags" : [
+                "novo"
+            ],
+            "sizes" : [
+                "u"
+            ]
+        },
+        {
+            "image" : "IMG5.png",
+            "available" : true,
+            "name"   : "Caneca 2bdigital",
+            "sku"    : "5",
+            "oldPrice"  : "",
+            "newPrice"  : "R$ 60,00",
+            "maxInstallments" : "2x",
+            "maxPriceInstallments" : "R$ 30,00",
+            "discount" : "",
+            "flags" : [
+            ],
+            "sizes" : [
+                "p",
+                "m",
+                "g",
+                "gg",
+                "xg"
+            ]
+        },
+        {
+            "image" : "IMG6.png",
+            "available" : true,
+            "name"   : "Garrafa 500ml Lets Drink Some Water ",
+            "sku"    : "6",
+            "oldPrice"  : "R$ 152,00",
+            "newPrice"  : "R$ 60,00",
+            "maxInstallments" : "2x",
+            "maxPriceInstallments" : "R$ 30,00",
+            "discount" : "",
+            "flags" : [
+            ],
+            "sizes" : [
+                "p",
+                "m",
+                "g",
+                "gg",
+                "xg"
+            ]
+        },
+        {
+            "image" : "IMG7.png",
+            "available" : true,
+            "name"   : "T-shirt Unissex 2b Yourself Rosa",
+            "sku"    : "7",
+            "oldPrice"  : "R$ 152,00",
+            "newPrice"  : "R$ 99,00",
+            "maxInstallments" : "3x",
+            "maxPriceInstallments" : "R$ 33,00",
+            "discount" : "-30%",
+            "flags" : [
+            ],
+            "sizes" : [
+                "p",
+                "m",
+                "g",
+                "gg",
+                "xg"
+            ]
+        },
+        {
+            "image" : "IMG8.png",
+            "available" : true,
+            "name"   : "Kit 4 Bottons 2b Waves",
+            "sku"    : "8",
+            "oldPrice"  : "",
+            "newPrice"  : "R$ 15,00",
+            "maxInstallments" : "",
+            "maxPriceInstallments" : "",
+            "discount" : "",
+            "flags" : [
+            ],
+            "sizes" : [
+                "p",
+                "m",
+                "g",
+                "gg",
+                "xg"
+            ]
+        }
+]

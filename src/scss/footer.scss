@@ -1,0 +1,29 @@
+footer {
+    background: $grey;
+    margin-top: 37px;
+    
+    .wrap-infos-footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    
+        .logo {
+            margin: 60px 0;
+        }
+        
+        .text {
+            margin: 50px 0;
+        
+            p {
+                margin: 0;
+                font-size: 12px;
+                line-height: 16px;
+                font-weight: 400;
+                &:first-child {
+                    font-weight: 500;
+                    margin-bottom: 8px;
+                }
+            }
+        }
+    }
+}
